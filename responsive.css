@@ -1,0 +1,240 @@
+@media(max-width: 700px){
+    nav{
+        width: 373px;
+        position: fixed;
+    }
+    body{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgba(0,0,0,0.9);
+        height: 100vh;
+        width: 200px;
+        padding: 10%;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        transition: 0.3s;
+    }
+    .nav-links ul li{
+        margin-bottom: 30px;
+    }
+    nav .fa-solid{
+        color: #f5f5f5;
+        display: block;
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+        color: #f5f5f5;
+        font-size: 13px;
+    }
+    .first{
+        grid-template-columns: repeat(1,auto);
+        /* width: 380px; */
+        /* box-sizing: border-box; */
+    }
+    .first-page{
+        background: #f5f5f5;
+        width: 380px;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/me2.jpg);
+        background-position: top;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .intro{
+        width: 350px;
+        height: 300px;
+        text-align: center;
+        top: 40%;
+        left:1%
+    }
+    .intro h1{
+        font-size: 35px;
+        color: #f5f5f5;
+        line-height: 40px;
+    }
+    .intro p{
+        display: none;
+    }
+    .links{
+        width: 300px;
+        margin-left: 5%;
+    }
+    .links a{
+        font-size: 13px;
+    }
+    /* #link2{
+        position: absolute;
+    } */
+    .beauty{
+        left: 15%;
+        top: 20%;
+    }
+    .shape-1,.shape-2,.shape-3,.shape-4{
+        width: 30px;
+        height: 30px;
+    }
+    .projects{
+        width: 300px;
+        padding: 15% 1%;
+    }
+    .projects h2{
+        margin-left: 35%;
+    }
+    .cards{
+        width: 250px;
+    }
+    .my-work{
+        background: #f5f5f5;
+    }
+    .my-work h3{
+        font-size: 25px;
+        top: 4%;
+        left: 30%;
+        color: black;
+
+    }
+    .second{
+        width: 250px;
+        padding: 10%;
+        padding-top: 30%;
+    }
+    .creative-cards{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        background: rgb(88,85,85);
+    }
+    .creative-cards img{
+        width: 292px;
+        height: 150px;
+    }
+    .written-card{
+        margin-bottom: 2%;
+    }
+    .written-card h5{
+        color: #f5f5f5;
+    }
+    .written-card p{
+        display: none;
+    }
+    .about-me{
+        grid-template-columns: repeat(1, auto);
+        margin: 2% 15%;
+    }
+    .my-pics{
+        width: 150px;
+        height: 250px;
+    }
+    .my-pics img{
+        width: 150px;
+    }
+    .about-me-written{
+        margin-top: 20px;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+    }
+    .about-me-written h2{
+        font-size: 30px;
+    }
+    .services{
+        margin-top: 80%;
+        padding: 4% 3%;
+    }
+    .services h2{
+        font-size: 30px;
+    }
+    .services-card{
+        grid-template-columns: repeat(1, auto);
+        width: 200px;
+    }
+    .serv-card{
+        width: 250px;
+        height: 320px;
+    }
+    .skills h3{
+        font-size: 30px;
+    }
+    .skill-area{
+        grid-template-columns: repeat(2, auto);
+        padding: 5% 2%;
+    }
+    .skill-content img{
+        width: 30px;
+    }
+    .contact h3{
+        font-size: 30px;
+    }
+    .contact-area{
+        grid-template-columns: repeat(1, auto);
+        margin-left: 10%;
+    }
+    .contact-card{
+        padding: 4% 4%;
+    }
+    .contact-card h4{
+        font-size: 14px;
+    }
+    .contact-card p{
+        font-size: 13px;
+    }
+    .remove{
+        display: none;
+    }
+    .watermark{
+        display: none;
+    }
+    .contact-area-2-rows{
+        flex-direction: column;
+    }
+    .form{
+        width: 300px;
+    }
+    form input{
+        width: 230px;
+        margin-bottom: 10%;
+    }
+    form label{
+        font-size: 13px;
+    }
+    form textarea{
+        width: 230px;
+    }
+    .arrange-submit{
+        width: 230px;
+    }
+    .footer{
+        width: 375px;
+        height: 1000px;
+        text-align: center;
+    }
+    .footer-doc{
+        grid-template-columns: repeat(1, auto);
+        width: 350px;
+    }
+    .my-call{
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+    .contact-info{
+        text-align: center;
+    }
+    #footer-copy{
+        display: none;
+    }
+    .sp-content p{
+        font-size: 13px;
+    }
+}
