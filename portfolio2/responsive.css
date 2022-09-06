@@ -1,0 +1,170 @@
+@media(max-width:500px){
+    *{
+        box-sizing: border-box;
+    }
+    .section-header{
+        width: 450px;
+    }
+    nav{
+        padding: 1em 0.1em;
+        position: absolute;
+        height: 100vh;
+        width: 60%;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient( #bab0ba,  #8f098f);
+        top: 0;
+        right: 0;
+        text-align: right;
+        box-sizing: border-box;
+    }
+    .logo{
+        margin-bottom: 40px;
+    }
+    ul{
+        flex-direction: column;
+    }
+    ul li{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .hero{
+        width: 400px;
+        padding: 4em 1em;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 4em;
+        box-sizing: border-box;
+
+    }
+    .hero h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .disc{
+        width: 300px;
+        margin-left: 2em;
+    }
+    .illustration{
+        margin-top: 20px;
+    }
+    .illustration img{
+        width: 300px;
+    }
+    .recent-project{
+        padding: 1em;
+        text-align: center;
+    }
+    .pro-container{
+        padding: 0 5em;
+    }
+    .rec-pro{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        box-sizing: border-box;
+    }
+    .rec-pro-card{
+        width: 250px;
+        height: 280px;
+        box-sizing: border-box;
+    }
+    .rec-pro-card img{
+        width: 250px;
+        height: 150px;
+    }
+    .pro-desc-header{
+        font-size: 1.2em;
+        margin-bottom: 0.2em;
+    }
+    .pro-desc{
+        padding: 0.2em 2em 2em;
+    }
+    .explore-container{
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        box-sizing: border-box;
+    }
+    .explore-more{
+        margin-top: 2em;
+        font-size: 14px;
+    }
+    .about-sec{
+        width: 500px;
+        padding: 2em;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .about{
+        width: 400px;
+        height: 500px;
+        padding: 4em 2em;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .my-name{
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+    .my-pic{
+        width: 250px;
+        height: 400px;
+        background: #e4cde4e1;
+        position: relative;
+        margin-left: 7em;
+        margin-top: 4em;
+        border-radius: 0 20px 20px 0;
+        box-sizing: border-box;
+    }
+    .my-pic img{
+        width: 250px;
+        position: absolute;
+        left: -5em;
+    }
+    .skills{
+        padding: 0 2em;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .skill-container{
+        padding: 4em 0;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        box-sizing: border-box;
+    }
+    .services-sect{
+        text-align: center;
+        padding: 4em 5em;
+        box-sizing: border-box;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        box-sizing: border-box;
+    }
+    .extend{
+        width: 250px;
+        height: 170px;
+        margin-left: 0.3em;
+        padding-top: 2em;
+    }
+    .extend img{
+        margin-bottom: 0.5em;
+        margin-right: 1em;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 25px;
+        justify-content: center;
+    }
+    .icons a img{
+        width: 25px;
+        transition: 0.7s;
+    }
+    .footer{
+        width: 450px;
+        padding: 4em 2em;
+        box-sizing: border-box;
+    }
+}
