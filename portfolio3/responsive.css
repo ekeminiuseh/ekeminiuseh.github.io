@@ -1,0 +1,274 @@
+@media(min-width: 500px){
+    .hero{
+        text-align: center;
+    }
+    .hero-written a{
+        width: 200px;
+        margin-left: 8em;
+        display: block;
+    }
+    .project{
+        padding: 2em 4em;
+    }
+    .about-me a{
+        width: 200px;
+        margin-left: 10em;
+        display: block;
+    }
+    .mobile-nav ul li a img{
+        margin-right: 1em;
+    }
+}
+@media(min-width: 530px){
+    .hero-written a{
+        width: 200px;
+        margin-left: 10em;
+        display: block;
+    }
+}
+@media(min-width: 600px){
+    .hero-written a{
+        width: 200px;
+        margin-left: 11em;
+        display: block;
+    }
+    .about{
+        padding: 2em 4em;
+    }
+    .about-me a{
+        width: 200px;
+        margin-left: 14em;
+        display: block;
+    }
+    .my-services{
+        padding: 2em 4em;
+    }
+}
+@media(min-width: 800px){
+    .mobile-nav{
+        display: none;
+    }
+    .nav-bar{
+        background: #fff;
+        width: 100%;
+        border-bottom: 1px solid #410404;
+        position: fixed;
+        top: 0;
+        z-index: 60;
+    }
+    .active{
+        font-weight: 900;
+        /* border-bottom: 2px solid #410404; */
+    }
+    .logo{
+        font-size: 16px;
+        background: unset;
+        color: #410404;
+        margin-left: 2em;
+    }
+    .desktop-nav{
+        display: block;
+        margin-right: 2em;
+    }
+    .desktop-nav ul{
+        list-style: none;
+        display: flex;
+    }
+    .desktop-nav ul li a{
+        text-decoration: none;
+        display: block;
+        margin: 0.5em 1.5em;
+        color: #410404;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    .desktop-nav ul li a:hover{
+        font-weight: 900;
+        border-bottom: 2px solid #410404;
+    }
+    .hero{
+        width: 500px;
+        display: grid;
+        grid-template-columns: 60% auto;
+        grid-gap: 1em;
+        margin-top: 8em;
+        padding: 1em 1em;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .hero-written{
+        background: unset;
+        width: 400px;
+        text-align: left;
+    }
+    .hero-written h1{
+        font-size: 40px;
+    }
+    .hero-written p{
+        color: black;
+    }
+    .hero-written a{
+        width: 200px;
+        margin-left: 0;
+        display: block;
+    }
+    .img-illustration{
+        left: 0.5em;
+    }
+    .box1{
+        width: 300px;
+        height: 400px;
+        left: -2em;
+        top: -10em;
+    }
+    .box1 img{
+        width: 250px;
+    }
+    .box2{
+        left: -20em;
+        top: 13em;
+        width: 450px;
+    }
+    .project{
+        padding: 2em 1em;
+        margin-top: 12em;
+    }
+    .project-content{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2em;
+    }
+    .project-cards{
+        height: 330px;
+    }
+    .about{
+        display: flex;
+    }
+    .about-pic{
+        width: 1200px;
+        height: 400px;
+    }
+    .about-pic img{
+        width: 270px;
+    }
+    .about-written{
+        width: 1000px;
+        padding: 2em 3em;
+    }
+    .my-services{
+        padding: 2em 15em;
+    }
+    .contact-container{
+        display: flex;
+    }
+    .contact-card{
+        margin-right: 2em;
+    }
+    .my-services{
+        padding: 2em;
+        margin-top: 12em;
+    }
+    .services-sect{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 1em;
+    }
+    .services-cards{
+        width: 200px;
+        height: 330px;
+        padding: 1em;
+    }
+}
+@media(min-width: 1000px){
+    .hero{
+        padding: 0 0.5em;
+    }
+    .box1{
+        width: 350px;
+        height: 400px;
+        left: 1em;
+        top: -10em;
+    }
+    .project{
+        padding: 6em 4em;
+    }
+    .about{
+        padding: 6em 4em;
+    }
+    .my-skills{
+        padding: 6em 4em;
+    }
+    .my-services{
+        margin-top: -2em;
+        padding: 2em 4em;
+    }
+    .services-sect{
+        display: flex;
+    }
+    .services-cards{
+        width: 300px;
+        height: 330px;
+        padding: 1em;
+    }
+    .contact-container{
+        justify-content: center;
+    }
+}
+
+@media(min-width: 1300px){
+    .logo{
+        margin-left: 11em;
+    }
+    .desktop-nav{
+        margin-right: 11em;
+    }
+    .hero{
+        width: 100%;
+        padding: 2em 10em;
+        justify-content: left;
+    }
+    .box1{
+        width: 600px;
+        height: 600px;
+        left: -10em;
+    }
+    .box1 img{
+        width: 400px;
+    }
+    .box2{
+        display: none;
+    }
+    .project{
+        padding: 6em 11em;
+    }
+    .project-content{
+        grid-gap: 4em;
+    }
+    .about{
+        padding: 6em 11em;
+    }
+    .about-pic img{
+        width: 350px;
+    }
+    .skills{
+        padding: 4em 11em;
+    }
+    .skills img{
+        margin: 0 3em;
+    }
+    .services-sect{
+        padding: 2em 11em;
+    }
+    .services-card{
+        width: 300px;
+    }
+    .contact-container{
+        padding: 2em;
+    }
+    .contact-card{
+        background: #4104043c;
+        padding: 2em 4em;
+        border-bottom: 1px solid #410404;
+        border-radius: 10px 10px 0 0;
+    }
+}
