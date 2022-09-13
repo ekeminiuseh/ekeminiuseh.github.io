@@ -11,7 +11,8 @@
 </head>
 <body>
     <div class="section-header" id="home">
-        <nav>
+        <nav id="navLinks">
+            <img src="images/menu4.png" alt="" class="close-burger" onclick="hideMenu()">
             <a href="#home"><img src="images/logo.png" alt=""  class="logo"></a>
             <ul>
                 <li><a href="#home"><img src="" alt=""> Home</a></li>
@@ -21,15 +22,16 @@
                 <li><a href="#contact"><img src="" alt=""> Contact</a></li>
             </ul>
         </nav>
+        <img src="images/menu3.png" alt="" class="burger" onclick="showMenu()">
 
-        <div class="hero">
+        <div class="hero" id="home">
             <div class="hero-written">
                 <p class="title">Ekemini Useh</p>
-                <h1>Carefully crafted design equals revenue boost</h1>
+                <h1>Carefully crafted design equals great experience</h1>
                 <p class="disc">Customer satisfaction through great UI and development
                     remains a priority.
                 </p>
-                <a href="#" class="button">My projects</a>
+                <a href="#project" class="button">My projects</a>
             </div>
             <div class="illustration">
                 <img src="images/My illustration.png" alt="">
@@ -41,7 +43,7 @@
         <p class="recent">Recent projects</p>
         <div class="pro-container">
             <div class="rec-pro">
-                <div class="rec-pro-card reveal">
+                <div class="rec-pro-card">
                     <a href="#"><img src="images/Hero TN.png" alt=""></a>
                     <div class="pro-desc">
                         <a href="#" class="pro-desc-header">K8 Fashion</a>
@@ -49,7 +51,7 @@
                     </div>
                 </div>
     
-                <div class="rec-pro-card reveal">
+                <div class="rec-pro-card">
                     <a href="#"><img src="images/Hero TN.png" alt=""></a>
                     <div class="pro-desc">
                         <a href="#" class="pro-desc-header">K8 Fashion</a>
@@ -57,25 +59,15 @@
                     </div>
                 </div>
 
-                <div class="explore-container" id="extra_projects">
-                    <div class="rec-pro-card reveal">
-                        <a href="#"><img src="images/Hero TN.png" alt=""></a>
-                        <div class="pro-desc">
-                            <a href="#" class="pro-desc-header">K8 Fashion</a>
-                            <p class="pro-desc-desc">K8 fashion is a fashion designer that makes great outfits.</p>
-                        </div>
-                    </div>
-    
-                    <div class="rec-pro-card reveal">
-                        <a href="#"><img src="images/Hero TN.png" alt=""></a>
-                        <div class="pro-desc">
-                            <a href="#" class="pro-desc-header">K8 Fashion</a>
-                            <p class="pro-desc-desc">K8 fashion is a fashion designer that makes great outfits.</p>
-                        </div>
+                <div class="rec-pro-card">
+                    <a href="#"><img src="images/Hero TN.png" alt=""></a>
+                    <div class="pro-desc">
+                        <a href="#" class="pro-desc-header">K8 Fashion</a>
+                        <p class="pro-desc-desc">K8 fashion is a fashion designer that makes great outfits.</p>
                     </div>
                 </div>
             </div>
-            <div class="explore-more" id="btn_label" onclick="show_hide()">more projects</div>
+            <a href="#" class="btn-more">View more projects</a>
         </div>
     </div>
 
@@ -90,7 +82,7 @@
                 nulla, vitae tempora assumenda laudantium placeat 
                 provident iste est? Sequi iste totam, esse eligendi quasi amet?
             </p>
-            <a href="#" class="button">Hire me</a>
+            <a href="#contact" class="button">Hire me</a>
         </div>
 
         <div class="my-pic">
@@ -100,19 +92,19 @@
     <div class="skills" id="skill">
         <p class="recent">My skills</p>
         <div class="skill-container">
-            <div class="single-skill longer reveal">
+            <div class="single-skill longer">
                 <img src="images/html.png" alt="">
                 <p>HTML</p>
             </div>
-            <div class="single-skill reveal">
+            <div class="single-skill">
                 <img src="images/css.png" alt="">
                 <p>CSS</p>
             </div>
-            <div class="single-skill reveal">
+            <div class="single-skill">
                 <img src="images/javascript.png" alt="">
                 <p>JavaScript</p>
             </div>
-            <div class="single-skill longer reveal">
+            <div class="single-skill longer">
                 <img src="images/php.png" alt="">
                 <p>PHP</p>
             </div>
@@ -121,7 +113,7 @@
 
     <div class="services-sect" id="services">
         <p class="recent">My services</p>
-        <div class="services reveal">
+        <div class="services">
             <div class="serv-card">
                 <img src="images/ui design.png" alt="">
                 <p class="serv-title">UI designs</p>
@@ -152,15 +144,15 @@
     <div class="skills" id="contact">
         <p class="recent">My contact</p>
         <div class="skill-container">
-            <div class="single-skill extend reveal">
+            <div class="single-skill extend">
                 <img src="images/call.png" alt="">
                 <p>+2348071135743</p>
             </div>
-            <div class="single-skill extend reveal">
+            <div class="single-skill extend">
                 <img src="images/mail.png" alt="">
                 <p>ekeminiuseh@gmail.com</p>
             </div>
-            <div class="single-skill extend reveal">
+            <div class="single-skill extend">
                 <div class="icons">
                     <a href="#"><img src="images/whatsapp.png" alt=""></a>
                     <a href="#"><img src="images/facebook.png" alt=""></a>
@@ -171,13 +163,13 @@
         </div>
     </div>
 
-    <div class="footer reveal">
+    <div class="footer">
         <p class="title">Ekemini Useh</p><br>
         <p>&#169 All Rights Reserved. Ekemini Useh</p>
     </div>
 
 
-    <script src="script.js"></script>
+    <script src="jscript.js"></script>
 
 </body>
 </html>

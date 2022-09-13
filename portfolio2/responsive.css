@@ -1,171 +1,176 @@
-@media(max-width:500px){
-    *{
-        box-sizing: border-box;
-    }
-    .section-header{
-        width: 450px;
-    }
-    nav{
-        padding: 1em 0.1em;
-        position: absolute;
-        height: 100vh;
-        width: 60%;
-        flex-direction: column;
-        justify-content: center;
-        background: linear-gradient( #bab0ba,  #8f098f);
-        top: 0;
-        right: 0;
-        text-align: right;
-        box-sizing: border-box;
-        display: none;
-    }
-    .logo{
-        margin-bottom: 40px;
-    }
-    ul{
-        flex-direction: column;
-    }
-    ul li{
-        display: block;
-        margin-bottom: 20px;
-    }
+@media(min-width:360px){
     .hero{
-        width: 400px;
-        padding: 4em 1em;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 4em;
-        box-sizing: border-box;
-
+        padding: 6em 2em;
     }
-    .hero h1{
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .disc{
-        width: 300px;
-        margin-left: 2em;
+}
+@media(min-width:690px){
+    .hero{
+        height: unset;
     }
     .illustration{
-        margin-top: 20px;
-    }
-    .illustration img{
-        width: 300px;
-    }
-    .recent-project{
-        padding: 1em;
-        text-align: center;
+        margin-left: 100px;
     }
     .pro-container{
-        padding: 0 5em;
+        width: 100%;
     }
     .rec-pro{
         display: grid;
-        grid-template-columns: repeat(1,auto);
-        box-sizing: border-box;
+        grid-template-columns: repeat(2,auto);
     }
     .rec-pro-card{
         width: 250px;
-        height: 280px;
-        box-sizing: border-box;
-    }
-    .rec-pro-card img{
-        width: 250px;
-        height: 150px;
-    }
-    .pro-desc-header{
-        font-size: 1.2em;
-        margin-bottom: 0.2em;
-    }
-    .pro-desc{
-        padding: 0.2em 2em 2em;
-    }
-    .explore-container{
-        padding: 0;
-        display: grid;
-        grid-template-columns: repeat(1, auto);
-        box-sizing: border-box;
-    }
-    .explore-more{
-        margin-top: 2em;
-        font-size: 14px;
-    }
-    .about-sec{
-        width: 500px;
-        padding: 2em;
-        flex-direction: column;
-        box-sizing: border-box;
-    }
-    .about{
-        width: 400px;
-        height: 500px;
-        padding: 4em 2em;
-        text-align: center;
-        box-sizing: border-box;
-    }
-    .my-name{
-        font-size: 20px;
-        box-sizing: border-box;
-    }
-    .my-pic{
-        width: 250px;
-        height: 400px;
-        background: #e4cde4e1;
-        position: relative;
-        margin-left: 7em;
-        margin-top: 4em;
-        border-radius: 0 20px 20px 0;
-        box-sizing: border-box;
-    }
-    .my-pic img{
-        width: 250px;
-        position: absolute;
-        left: -5em;
-    }
-    .skills{
-        padding: 0 2em;
-        text-align: center;
-        box-sizing: border-box;
     }
     .skill-container{
-        padding: 4em 0;
         display: grid;
-        grid-template-columns: repeat(1, auto);
-        box-sizing: border-box;
-    }
-    .services-sect{
-        text-align: center;
-        padding: 4em 5em;
-        box-sizing: border-box;
+        grid-template-columns: repeat(2,auto);
+        grid-gap: 2em;
     }
     .services{
         display: grid;
-        grid-template-columns: repeat(1, auto);
-        box-sizing: border-box;
+        grid-template-columns: repeat(2,auto);
     }
-    .extend{
-        width: 250px;
-        height: 170px;
-        margin-left: 0.3em;
-        padding-top: 2em;
+    .about-sec{
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
-    .extend img{
-        margin-bottom: 0.5em;
-        margin-right: 1em;
+}
+@media(min-width:540px){
+    .hero{
+        padding: 6em 2em;
     }
-    .icons{
+}
+@media(min-width:900px){
+    .hero{
+        display: flex;
+        padding-top: 30px;
+        padding-left: 4em;
+    }
+    .hero-written{
+        text-align: left;
+        width: 60%;
+    }
+    .hero-written h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .hero-written a{
+        width: 200px;
+    }
+    .illustration{
+        margin-left: 0;
+    }
+    .illustration img{
+        width: 400px;
+    }
+    .rec-pro-card{
+        width: 300px;
+    }
+    .rec-pro-card img{
+        height: 200px;
+    }
+    .recent-project{
+        text-align: left;
+        padding: 0 4em;
+    }
+    .about-sec{
+        text-align: left;
+        padding: 4em;
+        display: flex;
+    }
+    .about{
+        width: 400px;
+        padding: 4em;
+    }
+    .services-sect{
+        padding: 4em 4em 2em;
+    }
+}
+@media(min-width:1000px){
+    .about{
+        width: 500px;
+    }
+}
+@media(min-width:1200px){
+    .burger{
+        display: none;
+    }
+    .close-burger{
+        display: none;
+    }
+    nav{
+        width: unset;
+        width: 100%;
+        height: unset;
+        padding: 3em;
+        display: block;
+        background: #fff;
+        left: 0;
+        box-shadow: 0 0 10px #e0ace0ec;
+    }
+    .logo{
+        margin-bottom: 0;
+        position: fixed;
+        top: 2em;
+        left: 10em;
+    }
+    nav ul{
+        display: flex;
+        position: fixed;
+        right: 10em;
+        top: 0;
+    }
+    nav ul li a{
+        color: #2e052e;
+        padding: 0 1em;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    nav ul li a:hover{
+        color: #a40d0d;
+    }
+    .hero{
+        padding: 10em 10em 4em;
+    }
+    .illustration img{
+        width: 500px;
+    }
+    .recent-project{
+        padding: 4em 10em;
+    }
+    .rec-pro{
         display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-gap: 25px;
-        justify-content: center;
+        grid-template-columns: repeat(3,auto);
     }
-    .icons a img{
-        width: 25px;
-        transition: 0.7s;
+    .rec-pro-card{
+        width: 280px;
+    }
+    .about-sec{
+        padding: 4em 10em;
+        justify-content: space-between;
+    }
+    .my-pic{
+        width: 400px;
+    }
+    .my-pic img{
+        width: 300px;
+        border-radius: 30px 0 20px;
+    }
+    .skills{
+        padding: 4em 10em;
+    }
+    .skill-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+    .services-sect{
+        padding: 4em 10em;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
     }
     .footer{
-        width: 450px;
-        padding: 4em 2em;
-        box-sizing: border-box;
+        padding: 4em 10em;
     }
 }
