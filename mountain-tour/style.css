@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.first{
+    background: linear-gradient(rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.1) ), url(images/hill1.jpg);
+    background-size: cover;
+}
+.navigation-1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.nav-bar-1 ul{
+    list-style: none;
+    display: flex;
+}
+.nav-bar-1 ul li{
+    display: block;
+    padding: 10px;
+}
+.nav-bar-1 ul li a{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hero-1{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+.hero-1 h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.gray-col{
+    color: #a89191;
+}
+.blue-linear{
+    background: linear-gradient(#1a1a3a 60%,#000005);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-1 img{
+    display: none;
+}
+.logo-second{
+    /* width: 200px;
+    display: flex;
+    align-items: center; */
+    display: none;
+}
+#re-adjust{
+    padding-top: 0px;
+    justify-content: center;
+}
+#nav-readjust ul li a{
+    color: #1a1a3a;
+    font-size: 13px;
+    border-bottom: 1px solid #1a1a3a;
+    transition: 0.3s;
+}
+.logo-second p{
+    font-size: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.third, .forth{
+    width: 100%;
+}
+.third-header{
+    background: linear-gradient(#1c1c6c84 5%,#ffffff1a);
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px;
+}
+.write-up-1{
+    display: flex;
+    position: relative;
+}
+.big-num{
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a4a51;
+}
+.title{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 700;
+    color: #383030;
+}
+.title::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #4a4a51;
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+}
+.content{
+    font-size: 13px;
+    color: #383030;
+}
+.pix-gallery-area{
+    width: 100%;
+    justify-content: center;
+}
+.pix-gallery div{
+    padding: 20px;
+}
+.pix-gallery div img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.forth-header{
+    padding: 20px;
+}
+.navigation-2, #footer-bg{
+    width: 100%;
+    background: #1a1a3a;
+}
+.navigation-2 ul{
+    justify-content: center;
+}
+.navigation-2 ul li:hover{
+    background: #c7c2c2;
+}
+.navigation-2 ul li a{
+    color: #c7c2c2;
+}
+.navigation-2 ul li:hover a{
+    color: #4a4a51;
+    border-bottom: 1px solid #4a4a51;
+}
+.hero-schedule{
+    width: 100%;
+    height: 300px;
+    background: url(images/hill2.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+.card{
+    width: 100%;
+    background: #e8e5e5d0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.card h6{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.details{
+    width: 100%;
+    font-size: 10px;
+}
+.date{
+    font-weight: bold;
+}
+.content{
+    font-size: 13px;
+}
+#footer-bg{
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+#footer-logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+#footer-logo .logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#footer-logo p{
+    font-size: 10px;
+    line-height: 15px;
+}
+#footer-bg p{
+    font-size: 10px;
+    color: #665f5f;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 620px){
+    .first, .second, 
+    .third-header, 
+    .pix-gallery-area, 
+    .forth-header{
+        padding: 0px 40px;
+    }
+    .hero-schedule{
+        padding: 20px 40px;
+    }
+    .content-2{
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 750px){
+    .hero-1{
+        position: relative;
+        width: 100%;
+    }
+    .hero-1 h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .pix-gallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pix-gallery div{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 995px){
+    .first{
+        height: 90vh;
+        background: url(images/hill1.jpg);
+        background-size: cover;
+        background-position: bottom;
+        padding: 0px;
+       
+    }
+    .navigation-1{
+        padding: 20px 100px;
+    }
+    .nav-bar-1 ul li{
+        width: 100px;
+    }
+    .hero-1{
+        position: relative;
+        text-align: left;
+    }
+    .hero-1 h1{
+        font-size: 90px;
+        line-height: 90px;
+        position: absolute;
+        left: 100px;
+        bottom: -60px;
+    }
+    .hero-1 img{
+        display: unset;
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        left: 0px;
+        top: -30px;
+        margin-bottom: 150px;
+    }
+    .logo-second{
+        display: unset;
+    }
+    #re-adjust{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo-second{
+        width: 350px;
+        display: flex;
+        align-items: center;
+    }
+    .logo-second p{
+        font-size: 10px;
+        width: 100px;
+    }
+    .third{
+        background: url(images/hill4.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 650px;
+    }
+    .third-header{
+        padding: 20px 100px;
+        /* background: linear-gradient(#1c1c6c00 5%,#ffffff00); */
+    }
+    .big-num{
+        font-size: 100px;
+    }
+    .title{
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .title::after{
+        left: 110px;
+        bottom: 40px;
+    }
+    .content{
+        padding: 0px 80px;
+        margin-top: -40px;
+    }
+    .pix-gallery-area{
+        width: 100%;
+        height: 250px;
+        background: #4a4a51b4;
+        justify-content: center;
+        margin-top: 170px;
+        padding-top: 30px;
+        position: relative;
+    }
+    .pix-gallery div{
+        width: 200px;
+        height: 50px;
+    }
+    .pix-gallery div img{
+        width: 100%;
+        height: 120px;
+    }
+    .dots-area{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        column-gap: 10px;
+    }
+    .dots{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #9c9696;
+        margin-top: 150px;
+    }
+    .active-pix{
+        background: #ffffff;
+    }
+    .title-reajust::after{
+        margin-left: 20px;
+    }
+    .nav-bar-1 ul{
+        padding: 0px 100px;
+        justify-content: left;
+    }
+    .forth-header{
+        padding: 0px 100px;
+
+    }
+    .content-2{
+        margin-left: 200px;
+    }
+    .hero-schedule{
+        height: 700px;
+    }
+    .card{
+        width: 300px;
+        text-align: left;
+        margin: 40px;
+        padding: 40px;
+    }
+    .card h6{
+        font-size: 25px;
+    }
+    .details{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+    }
+    .date{
+        font-weight: unset;
+    }
+    #footer-bg{
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #footer-logo{
+        align-items: center;
+    }
+    #footer-logo p{
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 995px){
+    .navigation-1{
+        padding: 20px 240px;
+    }
+    .hero-1 h1{
+        left: 240px;
+    }
+    .third-header,
+    .forth-header{
+        padding: 20px 240px;
+    }
+    .nav-bar-1 ul{
+        padding: 0px 240px;
+        justify-content: left;
+    }
+    .hero-schedule{
+        padding: 40px 240px;
+    }
+    #footer-bg{
+        padding: 20px 240px;
+    }
+}
