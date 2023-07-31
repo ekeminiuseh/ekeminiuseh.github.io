@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: sans-serif;
+    background: wheat;
+}
+.nav-bar{
+    background: rgb(74,49,49);
+    text-align: center;
+}
+.nav-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.nav-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .nav-bar ul li:hover{
+    background-color: rgb(30,2,2);
+}
+.services-dropdown{
+    display: none;
+}
+.nav-bar ul li:hover .services-dropdown{
+    display: block;
+    position: absolute;
+    background: rgb(74,49,49,0.8);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.nav-bar ul li:hover .services-dropdown ul{
+    display: block;
+    margin: 10px;
+}
+.nav-bar ul li:hover .services-dropdown ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px solid whitesmoke;
+}
+.nav-bar ul li:hover .services-dropdown ul li a:hover{
+    color: rgb(208, 179, 179);
+}
+.hero{
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-gap: 120px;
+    justify-content: center;
+}
+.picture{
+    width: 700px;
+    height: 500px;
+    background: url(image/eat.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 400px 0 0 350px;
+    /* box-shadow: 0 5px 25px black; */
+}
+.header{
+    text-align: center;
+    padding: 18px;
+    margin-top: 80px;
+}
+.header h1{
+    font-size: 60px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    color: rgb(74,49,49);
+}
+.header p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    background: rgb(237, 90, 10);
+    margin-left: 100px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.header a:hover{
+    background: rgb(79, 30, 4);
+}
